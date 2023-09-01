@@ -1,5 +1,8 @@
 # Fitness Application Readme
 
+## Domain
+https://fitness-ci2.pages.dev/
+
 ## Title
 Fitness Application
 
