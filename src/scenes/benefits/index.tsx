@@ -1,4 +1,3 @@
-import React from "react";
 import { SelectedPage, BenefitType } from "@/shared/types";
 import {
   HomeModernIcon,
