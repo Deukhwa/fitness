@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# Fitness Application Readme
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Title
+Fitness Application
 
-Currently, two official plugins are available:
+## Overview
+I started this project to create a comprehensive fitness application that provides users with a responsive and engaging platform for managing their fitness routines and goals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Utilizes React and Typescript to deliver a dynamic user interface.
+- Built with Vite for fast development and seamless module management.
+- Employs Tailwind CSS for flexible and responsive styling.
+- Integrates Hero Icons for high-quality, customizable icons.
+- Enhances user experience with smooth scrolling using React Anchor Link Smooth Scroll.
+- Incorporates Framer Motion for smooth animations and transitions.
+- Allows users to submit forms seamlessly within the app.
+- Deploys the app using Cloudflare for a reliable and efficient hosting solution.
 
-## Expanding the ESLint configuration
+## Running the Project
+To get the code up and running on your system, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone this repository.
+2. Run the ``npm install``
+3. Run the ``npm run dev``
 
-- Configure the top-level `parserOptions` property like this:
+## Dependencies
+The main external resources required for this project are:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React
+- Typescript
+- Vite
+- Tailwind CSS
+- Hero Icons
+- Framer Motion
+- React Anchor Link Smooth Scroll
+- Cloudflare (for deployment)
